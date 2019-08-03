@@ -32,7 +32,6 @@ class Artist
   end
 
  end
-=======
 class Author
   attr_accessor :name
 
@@ -64,4 +63,3 @@ class Author
     @@post_count += 1
   end
 end 
->>>>>>> 88e7c80a9f20eb5ead93195aa6ca9d33b03872fc
