@@ -1,5 +1,5 @@
-
 class Post
+ 
   attr_accessor :author, :title 
   
   @@all = []
@@ -16,9 +16,19 @@ class Post
     else
       nil
     end
+   end
+
+   def self.all
+    @@all
+
+class Post
+  attr_accessor :author, :title
+
+   def initialize(title)
+    @title = title
   end
 
-  def self.all
-    @@all
+   def author_name
+    self.author? self.author.name : nil
   end
 end 
