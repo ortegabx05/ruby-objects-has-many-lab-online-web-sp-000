@@ -14,19 +14,7 @@ class Author
     Post.all.select {|post| post.author == self}
   end
 
-   def add_post(post)
-    @posts << post
-=======
-class Author
 
-  attr_accessor :title
-
-  @@post_count = 0
-  
-  def initialize(name)
-    @title = title
-    @posts = []
-  end
 
   def add_post(post)
     self.posts << post
